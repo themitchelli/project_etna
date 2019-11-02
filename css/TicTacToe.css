@@ -3,6 +3,10 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
+table {
+	margin: auto;
+}
+
 #special {
 background: yellow;
 }
@@ -11,11 +15,21 @@ background: yellow;
 text-decoration: 	line-through;
 }
 
-h1 {
-	text-align:  : left;
+td {
+	width: 100px;
+	height: 100px;
 }
 
-table  td {
-	border: solid black 2px;
-	padding: 50px;
+h1 {
+	text-align: center;
+}
+
+.vertical {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+	
+.horizontal {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
 }
