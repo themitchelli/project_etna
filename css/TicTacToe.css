@@ -1,5 +1,5 @@
 body {
-	background: orange;
+
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -9,4 +9,13 @@ background: yellow;
 
 .completed {
 text-decoration: 	line-through;
+}
+
+h1 {
+	text-align:  : left;
+}
+
+table  td {
+	border: solid black 2px;
+	padding: 50px;
 }
